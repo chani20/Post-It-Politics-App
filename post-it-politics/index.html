@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Post-It Politics</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <meta charset="utf-8">
+    <meta name="keywords" content="politics, post-it, information">
+    <meta name="author" content="Madison Ramos">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link href="css/post-it.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="item item-1">
+            <img class="logo" src="images/logo.png"></img>
+        </div>
+        <div class="item item-2">
+            <h1 class="header-text">MEET YOUR <br> CANDIDATES IN</h1>
+            <h1 id="AR">AUGMENTED<br>REALITY</h1>
+            <button id="home-button">LET'S GO!</button> <!--onclick="window.location.href='pages/address.html'"-->
+        </div>
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <form>
+                    <p>Enter Your Address to Get Started:</p>
+                    <input type="text" id="address" name="address" placeholder="Enter your address here."><br>
+                    <a href='pages/races.html'>Find my races!</a>
+                </form>
+            </div>
+
+          </div>
+    </div>
+    <footer>
+        <p class="footer" style="text-align: center;">Copyright &copy 2020, Post-it Politics. All rights reserved.</p>
+    </footer>
+    <script>
+        // var i = 0;
+        // var txt = 'AUGMENTED REALITY.';
+        // var speed = 120;
+
+        // window.onload = function typeWriter() {
+        //   if (i < txt.length) {
+        //     document.getElementById("AR").innerHTML += txt.charAt(i);
+        //     i++;
+        //     setTimeout(typeWriter, speed);
+        //   }
+        // }
+
+        // Get the modal
+        var modal = document.getElementById("myModal");
+        // Get the button that opens the modal
+        var btn = document.getElementById("home-button");
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks the button, open the modal
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+    </script>
+</body>
+
+</html>

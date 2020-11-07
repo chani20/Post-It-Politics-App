@@ -1,0 +1,80 @@
+body {
+    margin: 10%;
+}
+
+.container {
+    display: grid;
+        grid-gap: 30px;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 45% 1fr 1fr 1fr 1fr;
+    background-color: #fff;
+    color: #444;
+    text-align: center;
+}
+
+.item-1 {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: center;
+    justify-self: center;
+}
+
+.item-2 {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.item-3 {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.item-4 {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.item-5 {
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.item-6 {
+    grid-column: 2;
+    grid-row: 1 / span 5;
+    align-self: center;
+    justify-self: center;
+}
+
+p, h1 {
+    margin: 0px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600px;
+    color: black;
+}
+
+.about {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300px;
+    color:#696969;
+}
+
+.ballot {
+    background-color:rgba(69, 210, 241, 0.51);
+    padding: 20px;
+    border-radius: 25px;
+    display:flex;
+    align-items:center;
+}
+
+a {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
