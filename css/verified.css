@@ -97,3 +97,15 @@ textarea {
 #postit-submit {
     font-size: 30px;
 }
+
+/* confirm.html */
+.confirm {
+    margin: 5px;
+}
+
+/* final.html */
+
+#site-link {
+    background-color: white;
+    padding: 0;
+}
