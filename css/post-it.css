@@ -136,10 +136,12 @@ p {
     overflow: hidden;
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    
   }
 
   /* Modal Content */
   .modal-content {
+    transform: scale(0.6);
     background-color:white;
     margin: auto;
     padding: 20px;
