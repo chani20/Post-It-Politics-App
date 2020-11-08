@@ -1,0 +1,99 @@
+
+header {
+    position: absolute;
+    top: 0;
+    width: 95%;
+    margin: 10px 30px;
+    height: 4.5rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+header img{
+    margin-left: 10px;
+    position: relative;
+    height: 100%;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    color: #444;
+    margin: 10%;
+}
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+.about {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color:#696969;
+}
+
+input[type=file] {
+    background-color: white;
+    padding: 5px 5px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 4px;
+    font-size: 20px;
+    margin: 50px 0px 20px 0px;
+    width: 300px;
+}
+
+p, h1, h2 {
+    margin: 0px;
+    text-align: center;
+}
+
+.verified {
+    width: 700px;
+    height: auto;
+    margin-top: 50px;
+}
+
+div a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color:  rgba(69, 210, 241, 0.51);
+}
+
+/* for post-its.html */
+
+textarea {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    background-color: #feffc8;
+    border: none;
+    padding: 10px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.opinions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    margin: 2% 10% 1% 10%;
+}
+
+#postit-submit {
+    font-size: 30px;
+}

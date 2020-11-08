@@ -1,17 +1,21 @@
 
 
-header{
+header {
     position: absolute;
     top: 0;
     width: 95%;
     margin: 10px 30px;
     height: 4.5rem;
     display: flex;
-    justify-content: flex-end;
     align-items: flex-end;
+    justify-content: space-between;
     font-family: 'Poppins', sans-serif;
     text-transform: capitalize;
-    
+}
+
+header a {
+    color: black;
+    text-decoration: none;
 }
 
 header img{
@@ -19,6 +23,7 @@ header img{
     position: relative;
     height: 100%;
 }
+
 .container {
    position: absolute;
    top: 50%;
@@ -27,7 +32,7 @@ header img{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 5%;
     width: 100%;
-    
+
 }
 
 .item-1 {
@@ -38,7 +43,7 @@ header img{
 }
 
 .item-2 {
-    
+
     grid-column: 2;
     grid-row: 1 / 2;
     align-self: center;
@@ -85,7 +90,7 @@ footer {
     font-size: 1vw;
 }
 
-button, a {
+button, #races {
     background-color: rgba(69, 210, 241, 0.51);
     color: black;
     /* border: 5px solid black; */
@@ -105,7 +110,7 @@ button, a {
     font-weight: 600;
 }
 
-button:hover, a:hover {
+button:hover, #races:hover {
     background-color:black;
     color: white;
 }

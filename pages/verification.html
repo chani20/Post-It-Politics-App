@@ -24,24 +24,29 @@
     <div class="container">
         <div class="item item-1">
             <img src="../images/check.svg"></br>
-            <h1>RACES</h1></br>
-            <p class="about">You have <b>4</b> races on your ballot. Choose one to get started.</p>
+            <h1>VERIFICATION</h1></br>
+            <p class="about">Follow these steps to <b>verify your identity</b>.</p>
         </div>
-        <div class="ballot item-2">
-            <a href="../pages/ballot.html">New York Congressional District 14  (House of Representatives)</a>
-        </div>
-        <div class="ballot item-3">
-            <a href="../pages/ballot.html">New York State Senate District 34</a>
-        </div>
-        <div class="ballot item-4">
-            <a href="../pages/ballot.html">New York Assembly District 82</a>
-        </div>
-        <div class="ballot item-5">
-            <a href="../pages/ballot.html">New York State Supreme Court District 12</a>
+        <div class="verification-steps">
+            <ol>
+                <li>Upload your ID.</li>
+                <li>Confirm your address.</li>
+                <li>Secure your account.</li>
+            </ul>
         </div>
         <div class="item item-6">
-            <img class="elec-img" src="../images/voting.svg" alt="Election Image"/>
+            <img class="elec-img" src="../images/verify.svg" alt="Verified Image"/>
         </div>
+    </div>
+    <div>
+        <form>
+            <p class="form">Upload your ID:</p>
+            <input type="file" name="datafile" size="40">
+            <p class="form">Verify your address:</p>
+            <input type="text" id="address" name="address" placeholder="Enter your address here."><br>
+            <a id="secure" href="verified.html">Secure Your Account</a>
+        </form>
+    </div>
 
 </body>
 

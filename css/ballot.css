@@ -1,5 +1,32 @@
-body {
-    margin: 10%;
+header{
+    position: absolute;
+    top: 0;
+    width: 95%;
+    margin: 10px 30px;
+    height: 4.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+
+#head {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 0px;
+    padding: 0px;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+header img{
+    margin-left: 10px;
+    position: relative;
+    height: 100%;
 }
 
 .container {
@@ -9,6 +36,7 @@ body {
     grid-template-rows: 30% 1fr 1fr 1fr;
     background-color: #fff;
     color: #444;
+    margin: 10%;
 }
 
 .item-1 {
