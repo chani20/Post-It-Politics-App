@@ -14,8 +14,7 @@ header{
 #head {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    margin: 0px;
-    padding: 0px;
+    font-size: 19px;
 }
 
 header a {
@@ -95,7 +94,7 @@ header img{
     max-height: 100px;
 }
 
-p, h3, h1{
+p, .name, h1{
     margin: 0px;
 }
 
@@ -105,7 +104,7 @@ h1 {
     color: black;
 }
 
-h3 {
+.name {
     font-family: 'Oswald', sans-serif;
     font-size: 25px;
     font-weight: 500;
@@ -127,7 +126,7 @@ h3 {
     align-items:center;
 }
 
-a, p {
+p {
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
     font-size: 20px;
